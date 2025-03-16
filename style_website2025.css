@@ -1,0 +1,114 @@
+/* This sets the margin and font ofr the entire page*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif
+}
+
+/* This sets the style for the header*/
+header {
+    background-color: #333; /* sets the background colour of the haeder to dark grey */
+    color: #fff; /* sets the font colour to white */
+    padding: 20px;/* adds twent pixles of padding around the content */
+    display: flex; /* sets the header to use flexbox layout */
+    justify-content: space-between; /* horizontally aligns the content of the header */
+    align-items: center; /* vertically aligns the content of the header */
+}
+
+/* This styles the h1 tag in the haeder */
+h1 {
+    margin-right: auto; /* pushes the h1 tag to the left side of the header */ 
+}
+
+/* this adds a class called logo for the images in the haeder */ 
+.logo {
+    margin-left: 1rem; /* adds 1 rem of margin to the left of the logo */ 
+    height: 3rem; 
+}
+
+nav ul {
+    list-style: none; /* removes bullet points from the lsit*/
+    margin: 0; /* sets margin of the lsit to 0 */
+    padding: 0; /* sets padding of the lsit to 0 */ 
+    display: flex;
+}
+
+/* this styles the lsit items in the naviagtion */
+nav li {
+    margin: 0 10px; /* addsd margin to the left and the right of the lists */ 
+    
+}
+
+/* this styles the links in the navigation */ 
+nav a {
+    color: #fff; /* sets the font colour of the lonks to white */
+    text-decoration: none; /* removes underline from text */
+}
+
+main {
+    max-width: 1200px; /* stes the maximum width of the main content to 1200 pixels */
+    margin: 0 auto; /* cebters the main content within itsd parent elemnt using margin auto */
+    padding: 20px; /* adds 20 pixles of padding to the main content */
+}
+#overview {
+    text-align: left; /* Aligns the text of the #landing element to the left */
+    margin-top: 50px; /* Adds a margin of 50 pixels to the top of the #landing
+    element */
+}
+.largeheading {
+    font-size: 5rem; /* Sets the font size of the .largeheading element to 2rem */
+    color: dodgerblue; /* Sets the text color of the .largeheading element to
+    dodgerblue */
+    font-weight: bold; /* Sets the font weight of the .largeheading element to bold
+    */
+    /* align-items: center; Aligns the items in the .largeheading element to the
+    center */
+    /* text-align: center; Aligns the text of the .largeheading element to the center
+    */
+}
+    /* This sets the style for the centered class */
+    .centered {
+    text-align: center; /* centers the content of the element horizontally */
+}
+
+#overview p{
+    font-size:24px;
+    line-height: 1.5;
+}
+
+footer{
+    background-color: #333; /* sets the background colour of the haeder to dark grey */
+    color: #fff; /* sets the font colour to white */
+    padding: 20px;/* adds twent pixles of padding around the content */
+    display: flex; /* sets the header to use flexbox layout */
+    justify-content: space-between; /* horizontally aligns the content of the header */
+    align-items: center; /* vertically aligns the content of the header */
+}
+
+.socail-media {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.social-media li{
+    display: inline-block;
+    margin-right:10px;
+}
+
+
+.socail-media li img {
+    width: 50px;
+    height: 50px;
+}
+
+.point {
+     padding: 50px;/* adds twent pixles of padding around the content */
+    display: flex; /* sets the header to use flexbox layout */
+    justify-content: space-between; /* horizontally aligns the content of the header */
+    align-items: center; /* vertically aligns the content of the header */
+}
+
+.point img {
+    width: 50ox;
+    height: 50px;
+}
